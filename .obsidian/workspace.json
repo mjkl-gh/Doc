@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Awesome_Open_Source.md",
+                "file": "btrfs on LUKS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Awesome_Open_Source.md",
+                "file": "btrfs on LUKS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Awesome_Open_Source.md"
+                "file": "btrfs on LUKS.md"
               }
             }
           },
@@ -185,10 +185,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49af780c75502d54",
+  "active": "30a7e2207f34ca23",
   "lastOpenFiles": [
-    "README.md",
     "Awesome_Open_Source.md",
+    "README.md",
     "btrfs on LUKS.md",
     "Awesome Open Souce.md"
   ]
