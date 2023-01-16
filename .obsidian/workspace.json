@@ -23,8 +23,11 @@
             "id": "49af780c75502d54",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "diff-view",
+              "state": {
+                "file": "README.md",
+                "staged": false
+              }
             }
           }
         ],
@@ -177,11 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f098e6e16351f98c",
+  "active": "49af780c75502d54",
   "lastOpenFiles": [
-    "Awesome Open Souce.md",
     "README.md",
     "Awesome Open Source.md",
-    "btrfs on LUKS.md"
+    "btrfs on LUKS.md",
+    "Awesome Open Souce.md"
   ]
 }
