@@ -23,10 +23,11 @@
             "id": "49af780c75502d54",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "README.md",
-                "staged": false
+                "file": "Awesome_Open_Source.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -115,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Awesome_Open_Source.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Awesome_Open_Source.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +155,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Awesome_Open_Source.md"
+              }
             }
           },
           {
@@ -183,7 +188,7 @@
   "active": "49af780c75502d54",
   "lastOpenFiles": [
     "README.md",
-    "Awesome Open Source.md",
+    "Awesome_Open_Source.md",
     "btrfs on LUKS.md",
     "Awesome Open Souce.md"
   ]
