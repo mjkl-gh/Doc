@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "0c96b0662b102830",
+    "type": "split",
+    "children": [
+      {
+        "id": "324581c2346b7004",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62c43e657e27eb4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "btrfs on LUKS.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ce0a2feed649d840",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30a7e2207f34ca23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "btrfs on LUKS.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5c2318fa2b8bfc40",
+    "type": "split",
+    "children": [
+      {
+        "id": "13c3dad24b85da2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1251bc1c5697d9f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f1c20aa2ee84ec1b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a7e16dd1901db4a7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1732ff152c480051",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb52bee4a969da8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3b15b74bec5f745",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "btrfs on LUKS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "41fa9ad9d51cfcfb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "btrfs on LUKS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8be31c2631a5c39a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d51c2b5cda515ff6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "btrfs on LUKS.md"
+              }
+            }
+          },
+          {
+            "id": "f098e6e16351f98c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "30a7e2207f34ca23",
+  "lastOpenFiles": []
+}
