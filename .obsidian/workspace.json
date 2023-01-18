@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "btrfs on LUKS.md",
+                "file": "btrfs_on_LUKS.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Current_Setup.md",
+                "file": "Pipewire_on_Ubuntu20.04.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Current_Setup.md",
+                "file": "Pipewire_on_Ubuntu20.04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Current_Setup.md",
+                "file": "Pipewire_on_Ubuntu20.04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Current_Setup.md"
+                "file": "Pipewire_on_Ubuntu20.04.md"
               }
             }
           },
@@ -179,12 +179,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "17a9a979200d703c",
+  "active": "1251bc1c5697d9f1",
   "lastOpenFiles": [
+    "btrfs_on_LUKS.md",
+    "Current_Setup.md",
     "Awesome_Open_Source.md",
     "LUKS_and_TPM2_with_Fedora.md",
-    "btrfs on LUKS.md",
-    "Pipewire on ubuntu 20.04.md",
+    "Pipewire_on_Ubuntu20.04.md",
     "README.md",
     "Awesome Open Souce.md"
   ]
