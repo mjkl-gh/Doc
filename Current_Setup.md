@@ -17,3 +17,12 @@ an actively maintained list of software I currently run
 ## Shell
 - FIsh
 - Oh my fish
+
+## Terminal emulator
+- Gnome terminal
+
+## Software
+- Visual Studio Code
+- Obsidian
+- Bitwarden
+- 
