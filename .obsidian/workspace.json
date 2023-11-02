@@ -13,13 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pipewire on ubuntu 20.04.md",
+                "file": "btrfs on LUKS.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b24f5a2f44904b3b",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/app.json",
+                "staged": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1732ff152c480051",
@@ -86,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pipewire on ubuntu 20.04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pipewire on ubuntu 20.04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Pipewire on ubuntu 20.04.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,7 +164,9 @@
   },
   "active": "f098e6e16351f98c",
   "lastOpenFiles": [
+    "LUKS_and_TPM2_with_Fedora.md",
     "btrfs on LUKS.md",
+    "Pipewire on ubuntu 20.04.md",
     "Awesome_Open_Source.md",
     "README.md",
     "Awesome Open Souce.md"
