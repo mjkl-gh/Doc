@@ -23,15 +23,28 @@
             "id": "b24f5a2f44904b3b",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/app.json",
-                "staged": false
+                "file": "Awesome_Open_Source.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17a9a979200d703c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Current_Setup.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Current_Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Current_Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Current_Setup.md"
+              }
             }
           },
           {
@@ -162,12 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f098e6e16351f98c",
+  "active": "17a9a979200d703c",
   "lastOpenFiles": [
+    "Awesome_Open_Source.md",
     "LUKS_and_TPM2_with_Fedora.md",
     "btrfs on LUKS.md",
     "Pipewire on ubuntu 20.04.md",
-    "Awesome_Open_Source.md",
     "README.md",
     "Awesome Open Souce.md"
   ]
