@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Awesome_Open_Source.md",
+                "file": "btrfs on LUKS.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,24 +33,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "ce0a2feed649d840",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "30a7e2207f34ca23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "btrfs on LUKS.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1732ff152c480051",
@@ -185,11 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30a7e2207f34ca23",
+  "active": "49af780c75502d54",
   "lastOpenFiles": [
     "Awesome_Open_Source.md",
-    "README.md",
     "btrfs on LUKS.md",
+    "README.md",
     "Awesome Open Souce.md"
   ]
 }
