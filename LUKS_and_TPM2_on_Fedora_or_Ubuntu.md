@@ -1,4 +1,4 @@
-``# Decrypt LUKS volumes with a TPM on Fedora 35+
+# Decrypt LUKS volumes with a TPM on Fedora 35+
 
 This guide allows you to use the [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) on your computer to decrypt your [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) encrypted volumes. If you are worried about a [cold boot attack](https://en.wikipedia.org/wiki/Cold_boot_attack) on your hardware please ***DO NOT*** use this guide with your root volume!
 
