@@ -48,6 +48,17 @@ When setting `--tpm2-pcrs=0+2+4+7` the following items are these are validated a
 
 PCR 0,2,4,7 verifies the firmware, kernel, and bootloader before releasing the decryption key. If you are using PCR 2 and multiple kernels you will need to enroll a key for each kernel. If you have updated the firmware, kernel, or bootloader then auto volume decryption on your next reboot will fail. As long as you have a password set on your LUKS volumes you will be prompted to have to enter it to decrypt them and you will need to wipe the old key and enroll a new key if anything changes.
 
+#### Ubuntu 
+On ubuntu some extra steps must be taken to ensure systemd-cryptenroll has the correct functions set 
+
+clone and run the scripts from:
+
+https://github.com/wmcelderry/systemd_with_tpm2
+
+and to enable to fallback to passphrase when the kernel was updated, make sure to check:
+
+https://github.com/wmcelderry/systemd_with_tpm2/pull/7
+
 ##### Remove all TPM2 keys and enroll a new key
 
 ```
