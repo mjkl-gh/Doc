@@ -89,7 +89,8 @@ and then run `dracut -f` to rebuild the initrd. This should not be needed for Fe
 If you have a safe place to store a recovery key you can generate and add one for each LUKS volume. It will show the recovery key phrase on screen and generate a QR code you may scan off screen.
 
 ```
-systemd-cryptenroll --recovery-key /dev/nvme0n1p6```
+systemd-cryptenroll --recovery-key /dev/nvme0n1p6
+```
 
 ##### Verify and reboot!
 

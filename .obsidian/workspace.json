@@ -20,6 +20,29 @@
             }
           },
           {
+            "id": "571a6450b9da9545",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LUKS_and_TPM2_on_Fedora_or_Ubuntu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc569731cec83c19",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/core-plugins-migration.json",
+                "staged": false
+              }
+            }
+          },
+          {
             "id": "89876300dfc57466",
             "type": "leaf",
             "state": {
@@ -35,10 +58,11 @@
             "id": "270714a086d8f2e4",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "LUKS_and_TPM2_on_Fedora_or_Ubuntu.md",
-                "staged": true
+                "file": "Useful_SQL_Commands.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -56,6 +80,30 @@
           },
           {
             "id": "17a9a979200d703c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LUKS_and_TPM2_on_Fedora_or_Ubuntu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "095ce4ede66fdca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LUKS_and_TPM2_on_Fedora_or_Ubuntu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "865da842d1e3e63b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -110,6 +158,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "79509889a6f717cb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -198,16 +254,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "270714a086d8f2e4",
+  "active": "cc569731cec83c19",
   "lastOpenFiles": [
+    "LUKS_and_TPM2_on_Fedora_or_Ubuntu.md",
+    "Current_Setup.md",
+    "btrfs_on_LUKS.md",
+    "Awesome_Open_Source.md",
     "Useful_SQL_Commands.md",
     "README.md",
-    "Awesome_Open_Source.md",
-    "LUKS_and_TPM2_on_Fedora_or_Ubuntu.md",
-    "btrfs_on_LUKS.md",
     "Fresh Ubuntu 22.04 install.md",
     "Creditor list.md",
-    "Current_Setup.md",
     "Pipewire_on_Ubuntu20.04.md",
     "Awesome Open Souce.md"
   ]

@@ -29,3 +29,17 @@ BEGIN
 END
 $$;		
 ```
+
+# Remove duplicate keys to set to primary keys
+```SQL
+UPDATE ONLY states
+SET state_id = nextval('states_state_id_seq')
+FROM (
+   select *,
+		  row_number() over (partition by state_id order by state_id) as row_number
+   from states
+   ) as rows
+WHERE states.state_id IN
+(SELECT state_id FROM states GROUP BY state_id HAVING COUNT(*) > 1)
+AND row_number > 1
+```

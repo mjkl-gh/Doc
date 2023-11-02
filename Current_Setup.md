@@ -2,8 +2,7 @@
 an actively maintained list of software I currently run
 
 ## OS
-- Garuda dr460nized
-- Fedora 37
+- Ubuntu 22.04
 
 ## Bootloader
 - rEFInd
@@ -25,4 +24,11 @@ an actively maintained list of software I currently run
 - Visual Studio Code
 - Obsidian
 - Bitwarden
+- Helvum
+
+## Selfhosted
+- Semaphore
+- Traefik
+- Portainer
 - 
+
