@@ -1,4 +1,4 @@
-# Decrypt LUKS volumes with a TPM on Fedora 35+
+``# Decrypt LUKS volumes with a TPM on Fedora 35+
 
 This guide allows you to use the [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) on your computer to decrypt your [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) encrypted volumes. If you are worried about a [cold boot attack](https://en.wikipedia.org/wiki/Cold_boot_attack) on your hardware please ***DO NOT*** use this guide with your root volume!
 
@@ -7,8 +7,8 @@ This guide allows you to use the [TPM](https://en.wikipedia.org/wiki/Trusted_Pla
 Verify that you have a TPM in your computer:
 ```
 # systemd-cryptenroll --tpm2-device=list
-PATH        DEVICE      DRIVER
-/dev/tpmrm0 MSFT0101:00 tpm_crb
+PATH        DEVICE     DRIVER 
+/dev/tpmrm0 IFX0785:00 tpm_tis
 ```
 
 ***Note:*** If you have more than one TPM in your computer you will need to change `--tpm2-device=auto` to the exact TPM you want to use: `--tpm2-device=/dev/tpmrm0` and `rd.luks.options=tpm2-device=/dev/tpmrm0` in `GRUB_CMDLINE_LINUX`.
@@ -27,15 +27,13 @@ If you see that it is disabled you will need to enable it in the BIOS. You ***sh
 
 ```
 # blkid -t TYPE=crypto_LUKS
-/dev/nvme0n1p3: UUID="0818cd36-a007-11ec-aaab-7c10c93c41b1" TYPE="crypto_LUKS" PARTUUID="c362bcd2-87"
-/dev/nvme1n1p1: UUID="15bc3342-a007-11ec-a502-7c10c93c41b1" TYPE="crypto_LUKS" PARTUUID="e8ead241-02"
+/dev/nvme0n1p6: UUID="cad900c9-6937-47fd-bfed-c8fcbc71be3e" TYPE="crypto_LUKS" PARTLABEL="t15_system" PARTUUID="6b4aba4d-76da-4758-a357-d5f759b97909"
 ```
 
 #### Enroll your encrypted volumes
 
 ```
-# systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=0+2+4+7 /dev/nvme0n1p3
-# systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=0+2+4+7 /dev/nvme1n1p1
+# systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=0+2+4+7 /dev/nvme0n1p6
 ```
 This will ask for your volume's passphrase. If you'd like to automate this in a script you may set the `PASSWORD` environment variable to your LUKS passphrase.
 
@@ -53,8 +51,7 @@ PCR 0,2,4,7 verifies the firmware, kernel, and bootloader before releasing the d
 ##### Remove all TPM2 keys and enroll a new key
 
 ```
-systemd-cryptenroll /dev/nvme0n1p3 --wipe-slot=tpm2 --tpm2-device=auto --tpm2-pcrs=0,2,4,7
-systemd-cryptenroll /dev/nvme1n1p1 --wipe-slot=tpm2 --tpm2-device=auto --tpm2-pcrs=0,2,4,7
+systemd-cryptenroll /dev/nvme0n1p6 --wipe-slot=tpm2 --tpm2-device=auto --tpm2-pcrs=0,2,4,7
 ```
 
 #### Edit /etc/crypttab
@@ -62,8 +59,7 @@ systemd-cryptenroll /dev/nvme1n1p1 --wipe-slot=tpm2 --tpm2-device=auto --tpm2-pc
 Add `tpm2-device=auto,discard` to the end of each LUKS device line in `/etc/crypttab`
 ```
 # cat /etc/crypttab
-luks-014aa5a6-a007-11ec-a054-7c10c93c41b1 UUID=0818cd36-a007-11ec-aaab-7c10c93c41b1 - tpm2-device=auto,discard
-luks-0e9e99f6-a007-11ec-8130-7c10c93c41b1 UUID=15bc3342-a007-11ec-a502-7c10c93c41b1 - tpm2-device=auto,discard
+luks-cad900c9-6937-47fd-bfed-c8fcbc71be3e UUID=cad900c9-6937-47fd-bfed-c8fcbc71be3e none tpm2-device=auto,discard
 ```
 
 ##### Edit /etc/default/grub
@@ -73,6 +69,9 @@ Edit `/etc/default/grub` and add `rd.luks.options=tpm2-device=auto` to `GRUB_CMD
 ```
 GRUB_CMDLINE_LINUX="rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1 rd.luks.uuid=luks-014aa5a6-a007-11ec-a054-7c10c93c41b1 rd.luks.uuid=luks-0e9e99f6-a007-11ec-8130-7c10c93c41b1 rd.luks.options=tpm2-device=auto rhgb quiet rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1"
 ```
+
+#### Ubuntu initramfs 
+Ubuntu currently doesnt support tpm2 devices in the initramfs
 
 ##### Add TPM2 support to dracut
 
@@ -90,9 +89,7 @@ and then run `dracut -f` to rebuild the initrd. This should not be needed for Fe
 If you have a safe place to store a recovery key you can generate and add one for each LUKS volume. It will show the recovery key phrase on screen and generate a QR code you may scan off screen.
 
 ```
-systemd-cryptenroll --recovery-key /dev/nvme0n1p3
-systemd-cryptenroll --recovery-key /dev/nvme1n1p1
-```
+systemd-cryptenroll --recovery-key /dev/nvme0n1p6```
 
 ##### Verify and reboot!
 
