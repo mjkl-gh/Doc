@@ -35,11 +35,10 @@
             "id": "17a9a979200d703c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Pipewire_on_Ubuntu20.04.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -110,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pipewire_on_Ubuntu20.04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pipewire_on_Ubuntu20.04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Pipewire_on_Ubuntu20.04.md"
-              }
+              "state": {}
             }
           },
           {
@@ -179,14 +174,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1251bc1c5697d9f1",
+  "active": "17a9a979200d703c",
   "lastOpenFiles": [
-    "btrfs_on_LUKS.md",
     "Current_Setup.md",
-    "Awesome_Open_Source.md",
-    "LUKS_and_TPM2_with_Fedora.md",
+    "btrfs_on_LUKS.md",
     "Pipewire_on_Ubuntu20.04.md",
     "README.md",
+    "Awesome_Open_Source.md",
+    "LUKS_and_TPM2_with_Fedora.md",
     "Awesome Open Souce.md"
   ]
 }
