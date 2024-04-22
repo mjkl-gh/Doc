@@ -2,29 +2,35 @@
 an actively maintained list of software I currently run
 
 ## OS
-- Ubuntu 22.04
+- Regolith Ubuntu 22.04
+- Arch linux
+
+## GUI
+- Sway
+- Hyprland
+- Hyprdots
+- wlogout
+- 
 
 ## Bootloader
 - rEFInd
-- ZFSBootmenu
 
 ## Filesystems
-- ZFS
 - Btrfs
 - grub-btrfs
 
-## Shell
+## Shell, terminal and cli
 - FIsh
 - Oh my fish
-
-## Terminal emulator
 - Gnome terminal
+- bat
 
 ## Software
 - Visual Studio Code
 - Obsidian
 - Bitwarden
 - Helvum
+- Spicetify
 
 ## Selfhosted
 - Semaphore
