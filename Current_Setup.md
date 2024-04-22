@@ -23,7 +23,13 @@ an actively maintained list of software I currently run
 - FIsh
 - Oh my fish
 - Gnome terminal
-- bat
+- Bat
+
+## Management
+- Nala
+- Nautilus
+- Dolphin
+- Yadm
 
 ## Software
 - Visual Studio Code
