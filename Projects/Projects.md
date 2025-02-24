@@ -1,0 +1,1 @@
+This is the documentation on on-going projects. It describes my research and the thought process on projects that are currently in progress. I haven't yet decided if I will move this out of this folder after a project done, or keep it here for process documentation and write seperate articles about the result #ToDo
