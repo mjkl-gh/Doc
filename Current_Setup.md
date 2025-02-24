@@ -2,32 +2,28 @@
 an actively maintained list of software I currently run
 
 ## OS
-- Regolith Ubuntu 22.04
 - Arch linux
 
 ## GUI
-- Sway
 - Hyprland
-- Hyprdots
-- wlogout
-- 
+- [Hyprdots](https://github.com/prasanthrangan/hyprdots)
 
 ## Bootloader
 - rEFInd
+- [rEFInd tokyo night theme](https://github.com/almighty-loaf/rEFInd-tokyo-night)
 
 ## Filesystems
 - Btrfs
-- grub-btrfs
 
 ## Shell, terminal and cli
-- FIsh
-- Oh my fish
-- Gnome terminal
+- Kitty
+- Fish
+- Fisher
+- Starship prompt
+- Fastfetch
 - Bat
 
 ## Management
-- Nala
-- Nautilus
 - Dolphin
 - Yadm
 
@@ -38,9 +34,26 @@ an actively maintained list of software I currently run
 - Helvum
 - Spicetify
 
-## Selfhosted
+## CAD and design
+- GIMP
+- Freecad
+- Prusaslicer
+
+# Selfhosted on the homelab
+
+# Hypervisor
+- Proxmox
+
+## Home automation
+- Home assistant
+- Esphome
+
+## Homelab management
 - Semaphore
 - Traefik
 - Portainer
-- 
+
+# Monitoring
+## Cloud storage
+- Nextcloud
 
