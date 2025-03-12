@@ -26,7 +26,9 @@ The component choice, mainly guided by design, for know is between:
 - [Innova Airleaf SL](https://www.innovaenergie.com/en/products/fancoils/airleaf/airleaf-sl/)
 
 Unfortunately, our walls are seemingly to thin to have a in-wall Airleaf sli (128mm deep vs +/- 90mm thick walls)
+
+## Pipe insulation
+
+The calculation of the required insulation of the pipes that provide cooled water for the fan coils is located at [[System dimensioning#Insulation calculation]]
 # To do: 
-- Calculate required power
-- Determine pipe diameters
 - Create first draft of hydraulic plan
