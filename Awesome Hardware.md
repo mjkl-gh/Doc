@@ -16,4 +16,6 @@ Motorcontrollers
 
 Robotic arms
 - [PincOpen](https://pollen-robotics.github.io/PincOpen/)
-- 
+
+Screens and panels
+- [HUB75 RGB matrix panel](https://nl.aliexpress.com/item/1005006041886502.html)
