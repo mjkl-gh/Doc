@@ -25,6 +25,16 @@ Eventually it boils down to these requirements:
 - Double function as UPS for at least the server rack
 - Eventually three-phase, but maybe single-phase as long as the car and solar inverter are 1P
 - capable of delivering 3,7kW of 1P charging and eventually 11kW of charging on 3P 
+## Fire extinguisher
+Althoughe lifepo4 batteries are in an entire different class when it comes to safety than their li-ion counterparts. We are still storing high density energy in an electrical installation. Fire is a risk best not underestimated. [Zonnepanelensuper](https://zonnepanelensuper.nl/product/doe-het-zelf-48v-accubehuizing-v2/) Seems to have therefore integrated an aerosol fire extinguisher into the battery case.
+
+However, it does not seem clear from the outset what type or brand.
+
+Prefarably I'd take the following precautions:
+- Check if all the fire extinguishers in my home are rated for B type fires
+- Automatic fire extinguisher per battery case
+- Automatic fire extinguisher above the entire installation (server rack + inverters)
+- Plan a yearly check of fire fighting equipment
 # Case
 
 The goto for a BMS seems to be a JK BMS 
@@ -72,7 +82,7 @@ Consisting of
 - Victron MultiPlus II 3000VA/48V
 - Victron Energy Cerbo GX MK2
 
-It's debatable If I should get the Multiplus II GX or non-GX version. For 1P the GX is definitely cheaper. Also, for 3P getting a seperate Cerbo CX seams a bit more expensive.
+It's debatable If I should get the Multiplus II GX or non-GX version. For 1P the GX is definitely cheaper. But also, for 3P getting a seperate Cerbo CX seams a bit more expensive.
 
 Drawbacks of one or the other need to be investigated
 ## (bonus) Solar panels
