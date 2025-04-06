@@ -11,3 +11,9 @@ A curated list of awesome open source projects
 # Tools
 - Freecad
 - GIMP
+
+# Home appliances
+- [Magic mirror](https://magicmirror.builders/)
+
+# Weather station
+- [SS4H wind gauge](https://smartsolutions4home.com/ss4h-wg-wind-gauge/)
